@@ -1,0 +1,60 @@
+/* ViewUser.css */
+
+.view-user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f0f2f5; /* Light grey background for elegance */
+  }
+  
+  .view-user-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 3rem;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .view-user-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card.user-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 1rem;
+  }
+  
+  .list-group-item {
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 91, 179, 0.5);
+  }
+  
