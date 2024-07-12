@@ -1,0 +1,9 @@
+
+AWS PROCESS STEPS USED--> 
+
+step1--> Deployed MySQL workbench to RDS
+step2--> Copy environment link of AWS RDS to Application.properties
+step3--> Create an EC2 Instance environment for springboot and react.
+step4--> Connect instances on cloud
+step5--> Use S3 to store data (FREE TIER)
+step6--> Launch the WebApplication 
